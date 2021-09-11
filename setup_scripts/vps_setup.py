@@ -28,7 +28,7 @@ apache_conf = """<VirtualHost *:80>
 """ %(website_name, gmail)
 
 
-flaskapp_wsgi = """#!/usr/bin/python
+flaskapp_wsgi = """#!/usr/bin/python3
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
